@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(2.07deg 17.16% 33.14%);
+  display: flex;
+}
+
+#part1 {
+  height: 100%;
+  width: 26%;
+  /* background-color: rgb(97, 163, 238); */
+}
+#part2 {
+  height: 100%;
+  width: 68%;
+  background-color: rgb(115, 185, 241);
+  background-image: url(https://images.unsplash.com/photo-1621784563330-caee0b138a00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80);
+  background-size: cover;
+  background-position: center;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  background-color: hsla(2, 17%, 33%, 0.288);
+}
+#part3 {
+  height: 100%;
+  width: 7%;
+  /* background-color: rgb(149, 247, 125); */
+}
+
+#text-dev {
+  /* height: 300px; */
+  position: absolute;
+  width: 400px;
+  /* background-color: red; */
+  left: 5%;
+  top: 50%;
+  transform: translate(0,-50%);
+}
+#text-dev>h1 {
+  font-size: 95px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 900;
+  letter-spacing: 8px;
+  line-height: 85px;
+  color: #fff;
+  text-transform: uppercase;
+}
+#small-image {
+  height: 400px;
+  width: 300px;
+  /* background-color: red; */
+
+  background-image: url(https://images.unsplash.com/photo-1621786040662-455f23dcb6ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1287&q=80);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0, -50%);
+}
+#overlay-in{
+  height: 100%;
+  width: 100%;
+  background-color: hsla(253, 42%, 53%, 0.164);
+}
+#vertical-text {
+  position: absolute;
+  width: 100%;
+  background-color: red;
+}
+#vertical-text>h1{
+  font-size: 80px;
+  font-weight: 900;
+}
+#navbar {
+  height: 100px;
+  width: 100px;
+  /* background-color: red; */
+  position: absolute;
+  left: 5%;
+  top: 5%;
+}
+#logo-text {
+  width: 100%;
+  height: 100%;
+  /* background-color: rebeccapurple; */
+  position: absolute;
+  left: 15%;
+  top: 4.5%;
+}
+
+#logo-text>h1{
+  font-size: 50px;
+  color: aliceblue;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
